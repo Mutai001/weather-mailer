@@ -1,0 +1,10 @@
+###
+POST http://localhost:8000/send-email 
+Content-Type: application/json
+
+    {
+        "email": "cyruskimutai.it@gmail.com",
+        "location": "Nairobi", 
+        "temperature": 25,
+         "weatherCondition": "Sunny"
+    }
